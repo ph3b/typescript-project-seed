@@ -1,5 +1,5 @@
 
-# jest-snapshot-error
+# Typescript seed with Jest and Nodemon
 ## To run in watch mode
 ```
 $ npm install
