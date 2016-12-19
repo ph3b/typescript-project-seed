@@ -1,0 +1,25 @@
+{
+    "name": "ts-feed",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "test": "./node_modules/jest/bin/jest.js",
+        "test:watch": "./node_modules/jest/bin/jest.js --watch",
+        "start": "node_modules/nodemon/bin/nodemon.js build/src/App.js"
+    },
+    "license": "MIT",
+    "dependencies": {
+        "@types/jest": "16.0.1",
+        "jest": "18.0.0",
+        "nodemon": "1.11.0"
+    },
+    "jest": {
+        "modulePathIgnorePatterns": ["/build"],
+        "moduleFileExtensions": ["ts", "tsx", "js"],
+        "transform": {
+            "^.+\\.(ts|tsx)$": "<rootDir>/preprocessor.js"
+        },
+        "testRegex": "(/__tests__/.*|\\.(test|spec))\\.(ts|tsx|js)$"
+    }
+}
