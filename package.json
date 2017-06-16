@@ -12,11 +12,18 @@
     "dependencies": {
         "@types/jest": "16.0.1",
         "jest": "18.0.0",
-        "nodemon": "1.11.0"
+        "nodemon": "1.11.0",
+        "typescript": "^2.3.4"
     },
     "jest": {
-        "modulePathIgnorePatterns": ["/build"],
-        "moduleFileExtensions": ["ts", "tsx", "js"],
+        "modulePathIgnorePatterns": [
+            "/build"
+        ],
+        "moduleFileExtensions": [
+            "ts",
+            "tsx",
+            "js"
+        ],
         "transform": {
             "^.+\\.(ts|tsx)$": "<rootDir>/preprocessor.js"
         },
