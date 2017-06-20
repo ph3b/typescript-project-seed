@@ -10,8 +10,8 @@
     },
     "license": "MIT",
     "dependencies": {
-        "@types/jest": "16.0.1",
-        "jest": "18.0.0",
+        "@types/jest": "20.0.1",
+        "jest": "20.0.4",
         "nodemon": "1.11.0",
         "typescript": "^2.3.4"
     },
